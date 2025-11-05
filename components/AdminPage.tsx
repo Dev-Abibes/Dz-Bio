@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { Personality, Domain, Language } from '../types';
+import ImageUpload from './ImageUpload'; // Import new component
 
 type FormData = Omit<Personality, 'id'>;
 
@@ -68,6 +69,11 @@ const AdminPage: React.FC<AdminPageProps> = ({ personalities, onAddPersonality, 
     const isNumber = type === 'number';
     setFormData(prev => ({ ...prev, [name]: isNumber ? (value ? parseInt(value, 10) : undefined) : value }));
   };
+  
+  const handleImageChange = useCallback((newUrl: string) => {
+    setFormData(prev => ({ ...prev, mainImageUrl: newUrl }));
+    clearError('mainImageUrl');
+  }, []);
 
   const handleNestedChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>, field: 'name' | 'bio' | 'birthPlace', lang: 'fr' | 'en' | 'ar') => {
     const { value } = e.target;
@@ -150,10 +156,9 @@ const AdminPage: React.FC<AdminPageProps> = ({ personalities, onAddPersonality, 
         newErrors.deathYear = t('admin_validation_death_year_after_birth');
       }
     }
-
-    if (!formData.mainImageUrl || !urlRegex.test(formData.mainImageUrl)) {
-      newErrors.mainImageUrl = t('admin_validation_url');
-    }
+    
+    // Main Image URL is now handled by the upload component, which always provides a valid placeholder.
+    // So, we can remove the validation check.
 
     formData.notableWorks.forEach((work, index) => {
       if (!/^\d{4}$/.test(String(work.year)) || work.year > currentYear) {
@@ -244,11 +249,12 @@ const AdminPage: React.FC<AdminPageProps> = ({ personalities, onAddPersonality, 
             <div><label className={formLabelClass}>{t('admin_birth_place_ar')}</label><input type="text" value={formData.birthPlace.ar} onChange={e => handleNestedChange(e, 'birthPlace', 'ar')} className={formInputClass} dir="rtl"/></div>
             
             <div><label className={formLabelClass}>{t('admin_gender')}</label><select name="gender" value={formData.gender} onChange={handleSimpleChange} className={formInputClass}><option value="male">{t('gender_male')}</option><option value="female">{t('gender_female')}</option></select></div>
-            <div className="md:col-span-2">
-                <label className={formLabelClass}>{t('admin_image_url')}</label>
-                <input type="text" name="mainImageUrl" value={formData.mainImageUrl} onChange={handleSimpleChange} className={`${formInputClass} ${errors.mainImageUrl ? 'border-red-500' : ''}`} />
-                {errors.mainImageUrl && <p className={errorTextClass}>{errors.mainImageUrl}</p>}
-            </div>
+            
+            <ImageUpload 
+                imageUrl={formData.mainImageUrl} 
+                onImageChange={handleImageChange} 
+                t={t} 
+            />
           </div>
         </div>
 
