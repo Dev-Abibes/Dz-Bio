@@ -12,7 +12,8 @@ export const personalities: Personality[] = [
       fr: 'Kateb Yacine est l\'un des écrivains algériens les plus importants, connu pour ses romans et pièces de théâtre, notamment "Nedjma".',
       ar: 'كاتب ياسين هو أحد أبرز الكتاب الجزائريين، اشتهر برواياته ومسرحياته، خاصة "نجمة".'
     },
-    birthYear: 1929, deathYear: 1989,
+    birthYear: 1929,
+    deathYear: 1989,
     birthPlace: { en: 'Constantine', fr: 'Constantine', ar: 'قسنطينة' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/kateb/400/500',
@@ -33,7 +34,8 @@ export const personalities: Personality[] = [
       fr: 'Figure emblématique du mouvement de la réforme musulmane en Algérie, il fut un leader clé de la lutte contre le colonialisme.',
       ar: 'شخصية بارزة في حركة الإصلاح الإسلامي في الجزائر، وكان قائداً رئيسياً في النضال ضد الاستعمار.'
     },
-    birthYear: 1889, deathYear: 1940,
+    birthYear: 1889,
+    deathYear: 1940,
     birthPlace: { en: 'Constantine', fr: 'Constantine', ar: 'قسنطينة' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/benbadis/400/500',
@@ -54,7 +56,8 @@ export const personalities: Personality[] = [
       fr: 'Surnommée "La Rose Algérienne", elle était une chanteuse et actrice de renommée mondiale avec une carrière s\'étalant sur des décennies.',
       ar: 'المعروفة بـ "وردة الجزائرية"، كانت مغنية وممثلة عالمية الشهرة امتدت مسيرتها الفنية لعقود.'
     },
-    birthYear: 1939, deathYear: 2012,
+    birthYear: 1939,
+    deathYear: 2012,
     birthPlace: { en: 'Puteaux, France', fr: 'Puteaux, France', ar: 'بوتو، فرنسا' },
     gender: 'female',
     mainImageUrl: 'https://picsum.photos/seed/warda/400/500',
@@ -75,7 +78,8 @@ export const personalities: Personality[] = [
       fr: 'Un leader éminent pendant la guerre d\'indépendance algérienne. Il est considéré comme un héros national en Algérie.',
       ar: 'قائد بارز خلال حرب التحرير الجزائرية. يعتبر بطلاً قومياً في الجزائر.'
     },
-    birthYear: 1923, deathYear: 1957,
+    birthYear: 1923,
+    deathYear: 1957,
     birthPlace: { en: 'Ain M\'lila', fr: 'Ain M\'lila', ar: 'عين مليلة' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/benmhidi/400/500',
@@ -96,7 +100,8 @@ export const personalities: Personality[] = [
       fr: 'Romancière, traductrice et cinéaste acclamée. Ses œuvres traitent des défis auxquels les femmes sont confrontées.',
       ar: 'روائية ومترجمة ومخرجة سينمائية مشهورة. تتناول أعمالها التحديات التي تواجهها النساء.'
     },
-    birthYear: 1936, deathYear: 2015,
+    birthYear: 1936,
+    deathYear: 2015,
     birthPlace: { en: 'Cherchell', fr: 'Cherchell', ar: 'شرشال' },
     gender: 'female',
     mainImageUrl: 'https://picsum.photos/seed/djebar/400/500',
@@ -117,7 +122,8 @@ export const personalities: Personality[] = [
       fr: 'Il a été le deuxième président de l\'Algérie de 1965 jusqu\'à sa mort en 1978.',
       ar: 'شغل منصب الرئيس الثاني للجزائر من عام 1965 حتى وفاته في عام 1978.'
     },
-    birthYear: 1932, deathYear: 1978,
+    birthYear: 1932,
+    deathYear: 1978,
     birthPlace: { en: 'Héliopolis', fr: 'Héliopolis', ar: 'هيليوبوليس' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/boumediene/400/500',
@@ -178,7 +184,8 @@ export const personalities: Personality[] = [
       fr: 'Auteur algérien de plus de 30 romans, ainsi que de nombreuses nouvelles, poèmes et littérature pour enfants.',
       ar: 'مؤلف جزائري لأكثر من 30 رواية، بالإضافة إلى العديد من القصص القصيرة والقصائد وأدب الأطفال.'
     },
-    birthYear: 1920, deathYear: 2003,
+    birthYear: 1920,
+    deathYear: 2003,
     birthPlace: { en: 'Tlemcen', fr: 'Tlemcen', ar: 'تلمسان' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/dib/400/500',
@@ -199,7 +206,8 @@ export const personalities: Personality[] = [
       fr: 'Artiste autodidacte dont les œuvres vibrantes et colorées ont été exposées à l\'international. Elle était admirée par Picasso et Breton.',
       ar: 'فنانة عصامية عُرضت أعمالها المفعمة بالحياة والألوان عالميًا. كانت موضع إعجاب بيكاسو وبريتون.'
     },
-    birthYear: 1931, deathYear: 1998,
+    birthYear: 1931,
+    deathYear: 1998,
     birthPlace: { en: 'Bordj El Kiffan', fr: 'Bordj El Kiffan', ar: 'برج الكيفان' },
     gender: 'female',
     mainImageUrl: 'https://picsum.photos/seed/baya/400/500',
@@ -216,64 +224,89 @@ export const personalities: Personality[] = [
     name: { en: 'Abdelaziz Bouteflika', fr: 'Abdelaziz Bouteflika', ar: 'عبد العزيز بوتفليقة' },
     domain: 'Politics',
     bio: { en: 'Served as the fifth President of Algeria from 1999 to 2019.', fr: 'A été le cinquième président de l\'Algérie de 1999 à 2019.', ar: 'شغل منصب الرئيس الخامس للجزائر من 1999 إلى 2019.' },
-    birthYear: 1937, deathYear: 2021,
+    birthYear: 1937,
+    deathYear: 2021,
     birthPlace: { en: 'Oujda, Morocco', fr: 'Oujda, Maroc', ar: 'وجدة، المغرب' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/bouteflika/400/500',
     rating: 2.8,
     ratingVotes: 85,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 12,
     name: { en: 'Idir', fr: 'Idir', ar: 'إيدير' },
     domain: 'Music',
     bio: { en: 'A famous Kabyle singer-songwriter and musician, known for the song "A Vava Inouva".', fr: 'Célèbre auteur-compositeur-interprète et musicien kabyle, connu pour la chanson "A Vava Inouva".', ar: 'مغنٍ وكاتب أغانٍ وموسيقي قبائلي شهير، معروف بأغنية "أفافا إينوفا".' },
-    birthYear: 1949, deathYear: 2020,
+    birthYear: 1949,
+    deathYear: 2020,
     birthPlace: { en: 'Aït Lahcène', fr: 'Aït Lahcène', ar: 'آيت لحسن' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/idir/400/500',
     rating: 4.9,
     ratingVotes: 215,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 13,
     name: { en: 'Mouloud Mammeri', fr: 'Mouloud Mammeri', ar: 'مولود معمري' },
     domain: 'Literature',
     bio: { en: 'An Algerian writer, anthropologist and linguist, specializing in Berber language and culture.', fr: 'Écrivain, anthropologue et linguiste algérien, spécialiste de la langue et de la culture berbères.', ar: 'كاتب وأنثروبولوجي ولغوي جزائري، متخصص في اللغة والثقافة الأمازيغية.' },
-    birthYear: 1917, deathYear: 1989,
+    birthYear: 1917,
+    deathYear: 1989,
     birthPlace: { en: 'Taourirt Mimoune', fr: 'Taourirt Mimoune', ar: 'تاوريرت ميمون' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/mammeri/400/500',
     rating: 4.7,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 14,
     name: { en: 'Ali la Pointe', fr: 'Ali la Pointe', ar: 'علي لابوانت' },
     domain: 'Military',
     bio: { en: 'A key fighter for the National Liberation Front during the Battle of Algiers.', fr: 'Combattant clé du Front de libération nationale lors de la bataille d\'Alger.', ar: 'مقاتل رئيسي في جبهة التحرير الوطني خلال معركة الجزائر.' },
-    birthYear: 1930, deathYear: 1957,
+    birthYear: 1930,
+    deathYear: 1957,
     birthPlace: { en: 'Miliana', fr: 'Miliana', ar: 'مليانة' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/alilapointe/400/500',
     rating: 4.8,
     ratingVotes: 180,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 15,
     name: { en: 'Moufdi Zakaria', fr: 'Moufdi Zakaria', ar: 'مفدي زكريا' },
     domain: 'Poetry',
     bio: { en: 'Algerian poet and writer, author of "Kassaman", the Algerian national anthem.', fr: 'Poète et écrivain algérien, auteur de "Kassaman", l\'hymne national algérien.', ar: 'شاعر وكاتب جزائري، مؤلف "قسماً"، النشيد الوطني الجزائري.' },
-    birthYear: 1908, deathYear: 1977,
+    birthYear: 1908,
+    deathYear: 1977,
     birthPlace: { en: 'Beni Isguen', fr: 'Beni Isguen', ar: 'بني يزقن' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/zakaria/400/500',
     rating: 4.9,
     ratingVotes: 290,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 16,
@@ -289,10 +322,10 @@ export const personalities: Personality[] = [
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/rebrab/400/500',
     rating: 4.1,
-    mediaGallery: [], 
-    relations: [], 
-    notableWorks: [{ title: { en: 'Founder of Cevital Group', fr: 'Fondateur du groupe Cevital', ar: 'مؤسس مجموعة سيفيتال' }, year: 1998 }], 
-    awards: ['African CEO of the Year (2015)'], 
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [{ title: { en: 'Founder of Cevital Group', fr: 'Fondateur du groupe Cevital', ar: 'مؤسس مجموعة سيفيتال' }, year: 1998 }],
+    awards: ['African CEO of the Year (2015)'],
     externalLinks: []
   },
   {
@@ -310,8 +343,8 @@ export const personalities: Personality[] = [
     mainImageUrl: 'https://picsum.photos/seed/massi/400/500',
     rating: 4.7,
     ratingVotes: 130,
-    mediaGallery: [], 
-    relations: [], 
+    mediaGallery: [],
+    relations: [],
     notableWorks: [
         { title: { en: 'Raoui', fr: 'Raoui', ar: 'راوي' }, year: 2001 },
         { title: { en: 'Deb', fr: 'Deb', ar: 'دب' }, year: 2003 },
@@ -320,8 +353,8 @@ export const personalities: Personality[] = [
         { title: { en: 'El Mutakallimûn', fr: 'El Mutakallimûn', ar: 'المتكلمون' }, year: 2015 },
         { title: { en: 'Oumniya', fr: 'Oumniya', ar: 'أمنية' }, year: 2019 },
         { title: { en: 'Sequana', fr: 'Sequana', ar: 'سيكوانا' }, year: 2022 }
-    ], 
-    awards: [], 
+    ],
+    awards: [],
     externalLinks: []
   },
   {
@@ -329,12 +362,17 @@ export const personalities: Personality[] = [
     name: { en: 'Mohamed Boudiaf', fr: 'Mohamed Boudiaf', ar: 'محمد بوضياف' },
     domain: 'Politics',
     bio: { en: 'A major political leader and one of the founders of the revolutionary FLN, served as head of state briefly in 1992.', fr: 'Leader politique majeur et l\'un des fondateurs du FLN révolutionnaire, a été chef de l\'État brièvement en 1992.', ar: 'زعيم سياسي كبير وأحد مؤسسي جبهة التحرير الوطني الثورية، شغل منصب رئيس الدولة لفترة وجيزة عام 1992.' },
-    birthYear: 1919, deathYear: 1992,
+    birthYear: 1919,
+    deathYear: 1992,
     birthPlace: { en: 'M\'Sila', fr: 'M\'Sila', ar: 'المسيلة' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/boudiaf/400/500',
     rating: 4.0,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 19,
@@ -347,32 +385,46 @@ export const personalities: Personality[] = [
     mainImageUrl: 'https://picsum.photos/seed/fellag/400/500',
     rating: 4.6,
     ratingVotes: 98,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 20,
     name: { en: 'Fatima Zohra Imalayen (Assia Djebar)', fr: 'Fatima Zohra Imalayen (Assia Djebar)', ar: 'فاطمة الزهراء إيمالاين (آسيا جبار)' },
     domain: 'History',
-    bio: { en: 'A historian and academic whose work is intertwined with her literary creations, focusing on colonial history.', fr: 'Historienne et académicienne dont le travail est étroitement lié à ses créations littéraires, axé sur l\'histoire coloniale.', ar: 'مؤرخة وأكاديمية يتشابك عملها مع إبداعاتها الأدبية، مع التركيز على التاريخ الاستعماري.' },
-    birthYear: 1936, deathYear: 2015,
+    bio: { en: 'A historian and academic whose work is intertwined with her literary creations, focusing on colonial history.', fr: 'Historienne et académicienne dont le travail est étroitement lié à ses créations littéraires, axé sur l\'histoire coloniale.', ar: 'مؤرخة وأكاديمية يتشابك عملها مع إبداعاتها الأدبية، مع التركيز على التاريخ الاستعمارِي.' },
+    birthYear: 1936,
+    deathYear: 2015,
     birthPlace: { en: 'Cherchell', fr: 'Cherchell', ar: 'شرشال' },
     gender: 'female',
     mainImageUrl: 'https://picsum.photos/seed/djebar2/400/500',
     rating: 4.7,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 21,
     name: { en: 'Lalla Fatma N\'Soumer', fr: 'Lalla Fatma N\'Soumer', ar: 'لالة فاطمة نسومر' },
     domain: 'Military',
     bio: { en: 'A prominent figure of the Algerian resistance movement during the first years of the French colonial conquest.', fr: 'Figure de proue du mouvement de résistance algérien durant les premières années de la conquête coloniale française.', ar: 'شخصية بارزة في حركة المقاومة الجزائرية خلال السنوات الأولى من الغزو الاستعماري الفرنسي.' },
-    birthYear: 1830, deathYear: 1863,
+    birthYear: 1830,
+    deathYear: 1863,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'female',
     mainImageUrl: 'https://picsum.photos/seed/fatma/400/500',
     rating: 5.0,
     ratingVotes: 600,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 22,
@@ -383,13 +435,18 @@ export const personalities: Personality[] = [
       fr: 'Figure centrale de la Révolution algérienne, organisateur du Congrès de la Soummam.',
       ar: 'شخصية محورية في الثورة الجزائرية، ومنظم مؤتمر الصومام.'
     },
-    birthYear: 1920, deathYear: 1957,
+    birthYear: 1920,
+    deathYear: 1957,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/abaneramdane/400/500',
     rating: 4.9,
     ratingVotes: 310,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 23,
@@ -400,13 +457,18 @@ export const personalities: Personality[] = [
       fr: 'Un des six chefs historiques du FLN pendant la guerre d\'Algérie.',
       ar: 'أحد القادة التاريخيين الستة لجبهة التحرير الوطني خلال حرب الجزائر.'
     },
-    birthYear: 1922, deathYear: 1970,
+    birthYear: 1922,
+    deathYear: 1970,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/krimbelkacem/400/500',
     rating: 4.8,
     ratingVotes: 280,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 24,
@@ -417,13 +479,18 @@ export const personalities: Personality[] = [
       fr: 'Chef de la Wilaya III (Kabylie) pendant la guerre d\'Algérie.',
       ar: 'قائد الولاية الثالثة (القبائل) خلال حرب الجزائر.'
     },
-    birthYear: 1926, deathYear: 1959,
+    birthYear: 1926,
+    deathYear: 1959,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/amirouche/400/500',
     rating: 5.0,
     ratingVotes: 450,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 25,
@@ -434,13 +501,18 @@ export const personalities: Personality[] = [
       fr: 'Un des neuf chefs historiques du FLN, fondateur du FFS (Front des forces socialistes).',
       ar: 'أحد القادة التاريخيين التسعة لجبهة التحرير الوطني، ومؤسس جبهة القوى الاشتراكية.'
     },
-    birthYear: 1926, deathYear: 2015,
+    birthYear: 1926,
+    deathYear: 2015,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/aitahmed/400/500',
     rating: 4.7,
     ratingVotes: 200,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 26,
@@ -451,12 +523,17 @@ export const personalities: Personality[] = [
       fr: 'Militant berbériste, fondateur de l\'Académie berbère à Paris.',
       ar: 'ناشط أمازيغي، ومؤسس الأكاديمية البربرية في باريس.'
     },
-    birthYear: 1924, deathYear: 2002,
+    birthYear: 1924,
+    deathYear: 2002,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/bessaoud/400/500',
     rating: 4.5,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 27,
@@ -467,12 +544,17 @@ export const personalities: Personality[] = [
       fr: 'Avocat, militant des droits de l\'homme et homme politique.',
       ar: 'محام وناشط حقوقي وسياسي.'
     },
-    birthYear: 1921, deathYear: 2021,
+    birthYear: 1921,
+    deathYear: 2021,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/abdennour/400/500',
     rating: 4.6,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 28,
@@ -483,13 +565,18 @@ export const personalities: Personality[] = [
       fr: 'Écrivain algérien (romans : Le Fils du pauvre, La Terre et le Sang).',
       ar: 'كاتب جزائري (روايات: ابن الفقير، الأرض والدم).'
     },
-    birthYear: 1913, deathYear: 1962,
+    birthYear: 1913,
+    deathYear: 1962,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/feraoun/400/500',
     rating: 4.8,
     ratingVotes: 190,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 29,
@@ -498,14 +585,19 @@ export const personalities: Personality[] = [
     bio: { 
       en: 'Writer and singer, the first Algerian woman to publish a novel in French.',
       fr: 'Écrivaine et chanteuse, première femme algérienne à publier un roman en français.',
-      ar: 'كاتبة ومغنية، وهي أول امرأة جزائриة تنشر رواية باللغة الفرنسية.'
+      ar: 'كاتبة ومغنية، وهي أول امرأة جزائரிة تنشر رواية باللغة الفرنسية.'
     },
-    birthYear: 1913, deathYear: 1976,
+    birthYear: 1913,
+    deathYear: 1976,
     birthPlace: { en: 'Tunis, Tunisia', fr: 'Tunis, Tunisie', ar: 'تونس، تونس' },
     gender: 'female',
     mainImageUrl: 'https://picsum.photos/seed/taosamrouche/400/500',
     rating: 4.7,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 30,
@@ -516,13 +608,18 @@ export const personalities: Personality[] = [
       fr: 'Écrivain, poète et journaliste, assassiné pendant la guerre civile algérienne.',
       ar: 'كاتب وشاعر وصحفي، اغتيل خلال الحرب الأهلية الجزائرية.'
     },
-    birthYear: 1954, deathYear: 1993,
+    birthYear: 1954,
+    deathYear: 1993,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/djaout/400/500',
     rating: 4.8,
     ratingVotes: 150,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 31,
@@ -533,12 +630,17 @@ export const personalities: Personality[] = [
       fr: 'Écrivaine, mère de Jean et Taos Amrouche.',
       ar: 'كاتبة، والدة جان وطاووس عمروش.'
     },
-    birthYear: 1882, deathYear: 1967,
+    birthYear: 1882,
+    deathYear: 1967,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'female',
     mainImageUrl: 'https://picsum.photos/seed/fadhma/400/500',
     rating: 4.6,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 32,
@@ -554,7 +656,11 @@ export const personalities: Personality[] = [
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/sansal/400/500',
     rating: 4.5,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 33,
@@ -565,13 +671,18 @@ export const personalities: Personality[] = [
       fr: 'Chanteur, poète, et militant de la cause berbère, assassiné.',
       ar: 'مغني وشاعر وناشط في القضية الأمازيغية، تم اغتياله.'
     },
-    birthYear: 1956, deathYear: 1998,
+    birthYear: 1956,
+    deathYear: 1998,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/matoub/400/500',
     rating: 5.0,
     ratingVotes: 700,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 34,
@@ -582,12 +693,17 @@ export const personalities: Personality[] = [
       fr: 'Chanteur et poète emblématique.',
       ar: 'مغني وشاعر رمزي.'
     },
-    birthYear: 1910, deathYear: 2002,
+    birthYear: 1910,
+    deathYear: 2002,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/hasnaoui/400/500',
     rating: 4.8,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 35,
@@ -598,12 +714,17 @@ export const personalities: Personality[] = [
       fr: 'Auteur-compositeur-interprète.',
       ar: 'مؤلف وملحن ومغن.'
     },
-    birthYear: 1918, deathYear: 1983,
+    birthYear: 1918,
+    deathYear: 1983,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/azem/400/500',
     rating: 4.7,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 36,
@@ -619,7 +740,11 @@ export const personalities: Personality[] = [
     gender: 'female',
     mainImageUrl: 'https://picsum.photos/seed/nouara/400/500',
     rating: 4.6,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 37,
@@ -635,7 +760,11 @@ export const personalities: Personality[] = [
     gender: 'female',
     mainImageUrl: 'https://picsum.photos/seed/arhab/400/500',
     rating: 4.5,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 38,
@@ -651,7 +780,11 @@ export const personalities: Personality[] = [
     gender: 'female',
     mainImageUrl: 'https://picsum.photos/seed/djura/400/500',
     rating: 4.6,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 39,
@@ -667,7 +800,11 @@ export const personalities: Personality[] = [
     gender: 'female',
     mainImageUrl: 'https://picsum.photos/seed/adjani/400/500',
     rating: 4.8,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 40,
@@ -678,12 +815,17 @@ export const personalities: Personality[] = [
       fr: 'Acteur français (d\'origine kabyle par son père).',
       ar: 'ممثل فرنسي (من أصل قبائلي عن طريق والده).'
     },
-    birthYear: 1951, deathYear: 2005,
+    birthYear: 1951,
+    deathYear: 2005,
     birthPlace: { en: 'Loches, France', fr: 'Loches, France', ar: 'لوش، فرنسا' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/villeret/400/500',
     rating: 4.7,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 41,
@@ -699,7 +841,11 @@ export const personalities: Personality[] = [
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/boon/400/500',
     rating: 4.4,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 42,
@@ -710,12 +856,17 @@ export const personalities: Personality[] = [
       fr: 'Réalisateur algérien.',
       ar: 'مخرج جزائري.'
     },
-    birthYear: 1947, deathYear: 2000,
+    birthYear: 1947,
+    deathYear: 2000,
     birthPlace: { en: 'Sidi Aïch', fr: 'Sidi Aïch', ar: 'سيدي عيش' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/meddour/400/500',
     rating: 4.3,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   // New singers start here
   {
@@ -723,278 +874,337 @@ export const personalities: Personality[] = [
     name: { en: 'Abdelkader Bouhi', fr: 'Abdelkader Bouhi', ar: 'عبد القادر بوحي' },
     domain: 'Music',
     bio: { en: 'Songs with social themes.', fr: 'Chansons à thèmes sociaux.', ar: 'أغاني ذات طابع اجتماعي.' },
-    // FIX: Added missing birthYear
     birthYear: 1950,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/abdelkaderbouhi/400/500',
     rating: 4.3,
     ratingVotes: 88,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 44,
     name: { en: 'Abderrahmane Abid', fr: 'Abderrahmane Abid', ar: 'عبد الرحمان عبيد' },
     domain: 'Music',
     bio: { en: 'Singer-songwriter.', fr: 'Auteur-compositeur.', ar: 'مؤلف وملحن.' },
-    // FIX: Added missing birthYear
     birthYear: 1950,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/abderrahmaneabid/400/500',
     rating: 4.4,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 45,
     name: { en: 'Aït Menguellet (Lounis)', fr: 'Aït Menguellet (Lounis)', ar: 'آيت منقلات (لونيس)' },
     domain: 'Music',
     bio: { en: 'Emblematic poet-singer.', fr: 'Poète-chanteur emblématique.', ar: 'شاعر ومغني رمزي.' },
-    // FIX: Added missing birthYear
     birthYear: 1950,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/aitmenguellet/400/500',
     rating: 4.9,
     ratingVotes: 350,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 46,
     name: { en: 'Aït Meslayene', fr: 'Aït Meslayene', ar: 'آيت مسلاين' },
     domain: 'Music',
     bio: { en: 'Singer and lyricist.', fr: 'Chanteur et parolier.', ar: 'مغني وشاعر غنائي.' },
-    // FIX: Added missing birthYear
     birthYear: 1944,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/aitmeslayene/400/500',
     rating: 4.6,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 47,
     name: { en: 'Akli Yahiatene', fr: 'Akli Yahiatene', ar: 'أكلي يحياتن' },
     domain: 'Music',
     bio: { en: 'Songs about exile, Ya Lehbabi.', fr: 'Chansons sur l\'exil, Ya Lehbabi.', ar: 'أغاني عن الغربة، يا الحبابي.' },
-    // FIX: Added missing birthYear
     birthYear: 1933,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/akliyahiatene/400/500',
     rating: 4.8,
     ratingVotes: 180,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 48,
     name: { en: 'Ali Amran', fr: 'Ali Amran', ar: 'علي عمران' },
     domain: 'Music',
     bio: { en: 'Modern Kabyle Rock/Folk.', fr: 'Rock/Folk kabyle moderne.', ar: 'روك/فولك قبائلي حديث.' },
-    // FIX: Added missing birthYear
     birthYear: 1969,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/aliamran/400/500',
     rating: 4.7,
     ratingVotes: 110,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 49,
     name: { en: 'Ali Meziane', fr: 'Ali Meziane', ar: 'علي مزيان' },
     domain: 'Music',
     bio: { en: 'Figure from the 1970s.', fr: 'Figure des années 1970.', ar: 'شخصية من السبعينيات.' },
-    // FIX: Added missing birthYear
     birthYear: 1930,
     deathYear: 1981,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/alimeziane/400/500',
     rating: 4.5,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 50,
     name: { en: 'Allaoua (Mohamed)', fr: 'Allaoua (Mohamed)', ar: 'علاوة (محمد)' },
     domain: 'Music',
     bio: { en: 'Popular Kabyle variety.', fr: 'Variété kabyle populaire.', ar: 'منوعات قبائلية شعبية.' },
-    // FIX: Added missing birthYear
     birthYear: 1980,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/allaoua/400/500',
     rating: 4.6,
     ratingVotes: 150,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 51,
     name: { en: 'Amar Khelifi', fr: 'Amar Khelifi', ar: 'عمار خليفي' },
     domain: 'Music',
     bio: { en: 'Folk singer.', fr: 'Chanteur folk.', ar: 'مغني فولك.' },
-    // FIX: Added missing birthYear
     birthYear: 1950,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/amarkhelifi/400/500',
     rating: 4.3,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 52,
     name: { en: 'Amour Abdenour', fr: 'Amour Abdenour', ar: 'عمار عبد النور' },
     domain: 'Music',
     bio: { en: 'Songs of love and nostalgia.', fr: 'Chansons d\'amour et de nostalgie.', ar: 'أغاني الحب والحنين.' },
-    // FIX: Added missing birthYear
     birthYear: 1952,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/amourabdenour/400/500',
     rating: 4.5,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 53,
     name: { en: 'Arezki Baroudi', fr: 'Arezki Baroudi', ar: 'أرزقي بارودي' },
     domain: 'Music',
     bio: { en: 'Singer-songwriter.', fr: 'Auteur-compositeur.', ar: 'مؤلف وملحن.' },
-    // FIX: Added missing birthYear
     birthYear: 1950,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/arezkibaroudi/400/500',
     rating: 4.2,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 54,
     name: { en: 'Arezki Oualid', fr: 'Arezki Oualid', ar: 'أرزقي أوليد' },
     domain: 'Music',
     bio: { en: 'Kabyle chaâbi style.', fr: 'Style chaâbi kabyle.', ar: 'طابع شعبي قبائلي.' },
-    // FIX: Added missing birthYear
     birthYear: 1950,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/arezkioualid/400/500',
     rating: 4.4,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 55,
     name: { en: 'Azal Belkadi', fr: 'Azal Belkadi', ar: 'أزال بلقاضي' },
     domain: 'Music',
     bio: { en: 'Singer from the 80s/90s.', fr: 'Chanteur des années 80/90.', ar: 'مغني من الثمانينات/التسعينات.' },
-    // FIX: Added missing birthYear
     birthYear: 1960,
     deathYear: 2015,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/azalbelkadi/400/500',
     rating: 4.3,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 56,
     name: { en: 'Bachi', fr: 'Bachi', ar: 'باشي' },
     domain: 'Music',
     bio: { en: 'Modern variety.', fr: 'Variété moderne.', ar: 'منوعات حديثة.' },
-    // FIX: Added missing birthYear
     birthYear: 1950,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/bachi/400/500',
     rating: 4.1,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 57,
     name: { en: 'Boulifa (Amar)', fr: 'Boulifa (Amar)', ar: 'بوليفة (عمار)' },
     domain: 'Music',
     bio: { en: 'Pioneer of the 30s/40s.', fr: 'Pionnier des années 30/40.', ar: 'رائد من الثلاثينات/الأربعينات.' },
-    // FIX: Added missing birthYear
     birthYear: 1897,
     deathYear: 1931,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/boulifa/400/500',
     rating: 4.7,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 58,
     name: { en: 'Boudjemâa Agraw', fr: 'Boudjemâa Agraw', ar: 'بوجمعة أغراو' },
     domain: 'Music',
     bio: { en: 'Member of the group Agraw.', fr: 'Membre du groupe Agraw.', ar: 'عضو في فرقة أغراو.' },
-    // FIX: Added missing birthYear
     birthYear: 1952,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/boudjemaaagraw/400/500',
     rating: 4.5,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 59,
     name: { en: 'Brahim Izri', fr: 'Brahim Izri', ar: 'ابراهيم إزري' },
     domain: 'Music',
     bio: { en: 'Singer-songwriter.', fr: 'Auteur-compositeur-interprète.', ar: 'مؤلف وملحن ومغن.' },
-    // FIX: Added missing birthYear
     birthYear: 1954,
     deathYear: 2005,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/brahimizri/400/500',
     rating: 4.6,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 60,
     name: { en: 'Brahim Tayeb', fr: 'Brahim Tayeb', ar: 'ابراهيم الطيب' },
     domain: 'Music',
     bio: { en: 'Kabyle folk.', fr: 'Folk kabyle.', ar: 'فولك قبائلي.' },
-    // FIX: Added missing birthYear
     birthYear: 1961,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/brahimtayeb/400/500',
     rating: 4.4,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 61,
     name: { en: 'Cheikh Arab Bouzgarene', fr: 'Cheikh Arab Bouzgarene', ar: 'الشيخ العرب بوزغارين' },
     domain: 'Music',
     bio: { en: 'Traditional poet and singer.', fr: 'Poète et chanteur traditionnel.', ar: 'شاعر ومغني تقليدي.' },
-    // FIX: Added missing birthYear
     birthYear: 1888,
     deathYear: 1988,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/cheikharab/400/500',
     rating: 4.7,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 62,
     name: { en: 'Cheikh Nordin', fr: 'Cheikh Nordin', ar: 'الشيخ نوردين' },
     domain: 'Music',
     bio: { en: 'Singer and poet.', fr: 'Chanteur et poète.', ar: 'مغني وشاعر.' },
-    // FIX: Added missing birthYear
     birthYear: 1918,
     deathYear: 1999,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/cheikhnordin/400/500',
     rating: 4.6,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 63,
     name: { en: 'Cherif Kheddam', fr: 'Cherif Kheddam', ar: 'شريف خدام' },
     domain: 'Music',
     bio: { en: 'Composer and master of achewiq.', fr: 'Compositeur et maître du achewiq.', ar: 'ملحن وسيد الأشويق.' },
-    // FIX: Added missing birthYear
     birthYear: 1927,
     deathYear: 2012,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
@@ -1002,41 +1212,50 @@ export const personalities: Personality[] = [
     mainImageUrl: 'https://picsum.photos/seed/cherifkheddam/400/500',
     rating: 4.9,
     ratingVotes: 220,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 64,
     name: { en: 'Chérif Hamani', fr: 'Chérif Hamani', ar: 'شريف حماني' },
     domain: 'Music',
     bio: { en: 'Singer from the 70s/80s.', fr: 'Chanteur des années 70/80.', ar: 'مغني من السبعينات/الثمانينات.' },
-    // FIX: Added missing birthYear
     birthYear: 1956,
     deathYear: 2023,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/cherifhamani/400/500',
     rating: 4.6,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 65,
     name: { en: 'Dahak (Mohand)', fr: 'Dahak (Mohand)', ar: 'ضحاك (موحند)' },
     domain: 'Music',
     bio: { en: 'Traditional style.', fr: 'Style traditionnel.', ar: 'طابع تقليدي.' },
-    // FIX: Added missing birthYear
     birthYear: 1950,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/dahak/400/500',
     rating: 4.3,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 66,
     name: { en: 'Dahmane El Harrachi', fr: 'Dahmane El Harrachi', ar: 'دحمان الحراشي' },
     domain: 'Music',
     bio: { en: 'Although Chaâbi, an important influence in Kabylie.', fr: 'Bien que Chaâbi, influence importante en Kabylie.', ar: 'رغم أنه شعبي، له تأثير كبير في منطقة القبائل.' },
-    // FIX: Added missing birthYear
     birthYear: 1926,
     deathYear: 1980,
     birthPlace: { en: 'Algiers', fr: 'Alger', ar: 'الجزائر' },
@@ -1044,909 +1263,1117 @@ export const personalities: Personality[] = [
     mainImageUrl: 'https://picsum.photos/seed/dahmaneelharrachi/400/500',
     rating: 4.8,
     ratingVotes: 250,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 67,
     name: { en: 'Djamel Allam', fr: 'Djamel Allam', ar: 'جمال علام' },
     domain: 'Music',
     bio: { en: 'Popular folk singer.', fr: 'Chanteur folk populaire.', ar: 'مغني فولك شعبي.' },
-    // FIX: Added missing birthYear
     birthYear: 1947,
     deathYear: 2018,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/djamelallam/400/500',
     rating: 4.7,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 68,
     name: { en: 'Djillali (Abdelkader)', fr: 'Djillali (Abdelkader)', ar: 'جيلالي (عبد القادر)' },
     domain: 'Music',
     bio: { en: 'Composer.', fr: 'Compositeur.', ar: 'ملحن.' },
-    // FIX: Added missing birthYear
     birthYear: 1950,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/djillali/400/500',
     rating: 4.2,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 69,
     name: { en: 'Ferhat Mehenni', fr: 'Ferhat Mehenni', ar: 'فرحات مهني' },
     domain: 'Music',
     bio: { en: 'Activist singer.', fr: 'Chanteur engagé.', ar: 'مغني ملتزم.' },
-    // FIX: Added missing birthYear
     birthYear: 1951,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/ferhatmehenni/400/500',
     rating: 4.6,
     ratingVotes: 190,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 70,
     name: { en: 'Feroudja', fr: 'Feroudja', ar: 'فروجة' },
     domain: 'Music',
     bio: { en: 'Traditional singer.', fr: 'Chanteuse traditionnelle.', ar: 'مغنية تقليدية.' },
-    // FIX: Added missing birthYear
     birthYear: 1950,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'female',
     mainImageUrl: 'https://picsum.photos/seed/feroudja/400/500',
     rating: 4.5,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 71,
     name: { en: 'Fetta', fr: 'Fetta', ar: 'فتة' },
     domain: 'Music',
     bio: { en: 'Current singer.', fr: 'Chanteuse actuelle.', ar: 'مغنية حالية.' },
-    // FIX: Added missing birthYear
     birthYear: 1950,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'female',
     mainImageUrl: 'https://picsum.photos/seed/fetta/400/500',
     rating: 4.1,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 72,
     name: { en: 'Hachemi Bellali', fr: 'Hachemi Bellali', ar: 'هاشمي بلالي' },
     domain: 'Music',
     bio: { en: 'Kabyle variety.', fr: 'Variété kabyle.', ar: 'منوعات قبائلية.' },
-    // FIX: Added missing birthYear
     birthYear: 1950,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/hachemibellali/400/500',
     rating: 4.2,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 73,
     name: { en: 'Hakim Tidaf', fr: 'Hakim Tidaf', ar: 'حكيم تيداف' },
     domain: 'Music',
     bio: { en: 'Current artist.', fr: 'Artiste actuel.', ar: 'فنان حالي.' },
-    // FIX: Added missing birthYear
     birthYear: 1950,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/hakimtidaf/400/500',
     rating: 4.0,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 74,
     name: { en: 'Hamidouche', fr: 'Hamidouche', ar: 'حميدوش' },
     domain: 'Music',
     bio: { en: 'Singer.', fr: 'Chanteur.', ar: 'مغني.' },
-    // FIX: Added missing birthYear
     birthYear: 1956,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/hamidouche/400/500',
     rating: 4.3,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 75,
     name: { en: 'Hassiba Amrouche', fr: 'Hassiba Amrouche', ar: 'حسيبة عمروش' },
     domain: 'Music',
     bio: { en: 'Singer.', fr: 'Chanteuse.', ar: 'مغنية.' },
-    // FIX: Added missing birthYear
     birthYear: 1954,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'female',
     mainImageUrl: 'https://picsum.photos/seed/hassibaamrouche/400/500',
     rating: 4.4,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 76,
     name: { en: 'Hocine Haroun', fr: 'Hocine Haroun', ar: 'حسين هارون' },
     domain: 'Music',
     bio: { en: 'Modern.', fr: 'Moderne.', ar: 'حديث.' },
-    // FIX: Added missing birthYear
     birthYear: 1950,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/hocineharoun/400/500',
     rating: 4.1,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 77,
     name: { en: 'Houria Aïchi', fr: 'Houria Aïchi', ar: 'حورية عايشي' },
     domain: 'Music',
     bio: { en: 'Performer of traditional Chaoui/Kabyle songs.', fr: 'Interprète de chants traditionnels chaouis/kabyles.', ar: 'مؤدية للأغاني التقليدية الشاوية/القبائلية.' },
-    // FIX: Added missing birthYear
     birthYear: 1947,
     birthPlace: { en: 'Aurès', fr: 'Aurès', ar: 'الأوراس' },
     gender: 'female',
     mainImageUrl: 'https://picsum.photos/seed/houriaaichi/400/500',
     rating: 4.7,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 78,
     name: { en: 'Inasliyen (Rabah)', fr: 'Inasliyen (Rabah)', ar: 'إيناسليان (رابح)' },
     domain: 'Music',
     bio: { en: 'Member of the group Inasliyen.', fr: 'Membre du groupe Inasliyen.', ar: 'عضو في فرقة إيناسليان.' },
-    // FIX: Added missing birthYear
     birthYear: 1950,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/inasliyen/400/500',
     rating: 4.5,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 79,
     name: { en: 'Kamel Hamadi', fr: 'Kamel Hamadi', ar: 'كمال حمادي' },
     domain: 'Music',
     bio: { en: 'Major singer-songwriter.', fr: 'Auteur-compositeur-interprète majeur.', ar: 'مؤلف وملحن ومغن كبير.' },
-    // FIX: Added missing birthYear
     birthYear: 1936,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/kamelhamadi/400/500',
     rating: 4.8,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 80,
     name: { en: 'Kamel Igman', fr: 'Kamel Igman', ar: 'كمال إغمان' },
     domain: 'Music',
     bio: { en: 'Singer.', fr: 'Chanteur.', ar: 'مغني.' },
-    // FIX: Added missing birthYear
     birthYear: 1949,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/kameligman/400/500',
     rating: 4.2,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 81,
     name: { en: 'Kamel Iguerbouchène', fr: 'Kamel Iguerbouchène', ar: 'كمال إقربوشن' },
     domain: 'Music',
     bio: { en: 'Composer, arranger.', fr: 'Compositeur, arrangeur.', ar: 'ملحن وموزع.' },
-    // FIX: Added missing birthYear
     birthYear: 1907,
     deathYear: 1954,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/kameliguerbouchene/400/500',
     rating: 4.6,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 82,
     name: { en: 'Kamel Tahmas', fr: 'Kamel Tahmas', ar: 'كمال طحماس' },
     domain: 'Music',
     bio: { en: 'Folk singer.', fr: 'Chanteur folk.', ar: 'مغني فولك.' },
-    // FIX: Added missing birthYear
     birthYear: 1950,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/kameltahmas/400/500',
     rating: 4.1,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 83,
     name: { en: 'Karim T', fr: 'Karim T', ar: 'كريم ت' },
     domain: 'Music',
     bio: { en: 'Singer from the 80s.', fr: 'Chanteur des années 80.', ar: 'مغني من الثمانينات.' },
-    // FIX: Added missing birthYear
     birthYear: 1950,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/karimt/400/500',
     rating: 4.2,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 84,
     name: { en: 'Karim Tizouiar', fr: 'Karim Tizouiar', ar: 'كريم تزيوار' },
     domain: 'Music',
     bio: { en: 'Mandole virtuoso.', fr: 'Virtuose du mandole.', ar: 'عازف مندول بارع.' },
-    // FIX: Added missing birthYear
     birthYear: 1963,
     deathYear: 2023,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/karimtizouiar/400/500',
     rating: 4.7,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 85,
     name: { en: 'Kheloui Lounès', fr: 'Kheloui Lounès', ar: 'خلوي لوناس' },
     domain: 'Music',
     bio: { en: 'Master of traditional singing.', fr: 'Maître du chant traditionnel.', ar: 'سيد الغناء التقليدي.' },
-    // FIX: Added missing birthYear
     birthYear: 1950,
     deathYear: 2016,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/khelouilounes/400/500',
     rating: 4.8,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 86,
     name: { en: 'Lahlou Tighremt', fr: 'Lahlou Tighremt', ar: 'لحلو تيغرمت' },
     domain: 'Music',
     bio: { en: 'Singer.', fr: 'Chanteur.', ar: 'مغني.' },
-    // FIX: Added missing birthYear
     birthYear: 1950,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/lahloutighremt/400/500',
     rating: 4.3,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 87,
     name: { en: 'Lani Rabah', fr: 'Lani Rabah', ar: 'لاني رابح' },
     domain: 'Music',
     bio: { en: 'Singer.', fr: 'Chanteur.', ar: 'مغني.' },
-    // FIX: Added missing birthYear
     birthYear: 1959,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/lanirabah/400/500',
     rating: 4.2,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 88,
     name: { en: 'Lemmoudi (Belaïd)', fr: 'Lemmoudi (Belaïd)', ar: 'لمودي (بلعيد)' },
     domain: 'Music',
     bio: { en: 'Singer from the 70s.', fr: 'Chanteur des années 70.', ar: 'مغني من السبعينات.' },
-    // FIX: Added missing birthYear
     birthYear: 1950,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/lemmoudi/400/500',
     rating: 4.4,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 89,
     name: { en: 'Malika Domrane', fr: 'Malika Domrane', ar: 'مليكة دومران' },
     domain: 'Music',
     bio: { en: 'Activist singer, feminist icon.', fr: 'Chanteuse engagée, icône féministe.', ar: 'مغنية ملتزمة، أيقونة نسوية.' },
-    // FIX: Added missing birthYear
     birthYear: 1956,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'female',
     mainImageUrl: 'https://picsum.photos/seed/malikadomrane/400/500',
     rating: 4.8,
     ratingVotes: 160,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 90,
     name: { en: 'Moh Saïd Oubelaïd', fr: 'Moh Saïd Oubelaïd', ar: 'موح سعيد وبلعيد' },
     domain: 'Music',
     bio: { en: 'Traditional singer.', fr: 'Chanteur traditionnel.', ar: 'مغني تقليدي.' },
-    // FIX: Added missing birthYear
     birthYear: 1923,
     deathYear: 2000,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/mohsaidoubelaid/400/500',
     rating: 4.6,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 91,
     name: { en: 'Mohand Akli', fr: 'Mohand Akli', ar: 'موحند أكلي' },
     domain: 'Music',
     bio: { en: 'Singer.', fr: 'Chanteur.', ar: 'مغني.' },
-    // FIX: Added missing birthYear
     birthYear: 1950,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/mohandakli/400/500',
     rating: 4.0,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 92,
     name: { en: 'Mohand-Ou-Yidir', fr: 'Mohand-Ou-Yidir', ar: 'موحند أويدير' },
     domain: 'Music',
     bio: { en: 'Poet and singer.', fr: 'Poète et chanteur.', ar: 'شاعر ومغني.' },
-    // FIX: Added missing birthYear
     birthYear: 1950,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/mohandouyidir/400/500',
     rating: 4.5,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 93,
     name: { en: 'Moumouh', fr: 'Moumouh', ar: 'موموح' },
     domain: 'Music',
     bio: { en: 'Folk rock.', fr: 'Folk rock.', ar: 'فولك روك.' },
-    // FIX: Added missing birthYear
     birthYear: 1954,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/moumouh/400/500',
     rating: 4.4,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 94,
     name: { en: 'Mouloud Zedek', fr: 'Mouloud Zedek', ar: 'مولود زدك' },
     domain: 'Music',
     bio: { en: 'Folk singer.', fr: 'Chanteur folk.', ar: 'مغني فولك.' },
-    // FIX: Added missing birthYear
     birthYear: 1960,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/mouloudzedek/400/500',
     rating: 4.3,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 95,
     name: { en: 'Nait-Yghil', fr: 'Nait-Yghil', ar: 'نايت يغيل' },
     domain: 'Music',
     bio: { en: 'Traditional style.', fr: 'Style traditionnel.', ar: 'طابع تقليدي.' },
-    // FIX: Added missing birthYear
     birthYear: 1950,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/naityghil/400/500',
     rating: 4.2,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 96,
     name: { en: 'Nora (Cherifa)', fr: 'Nora (Cherifa)', ar: 'نورة (شريفة)' },
     domain: 'Music',
     bio: { en: 'Singer.', fr: 'Chanteuse.', ar: 'مغنية.' },
-    // FIX: Added missing birthYear
     birthYear: 1926,
     deathYear: 2014,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'female',
     mainImageUrl: 'https://picsum.photos/seed/nora/400/500',
     rating: 4.6,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 97,
     name: { en: 'Noureddine Chenoud', fr: 'Noureddine Chenoud', ar: 'نور الدين شنوذ' },
     domain: 'Music',
     bio: { en: 'Pop-Kabyle style.', fr: 'Style pop-kabyle.', ar: 'طابع بوب قبائلي.' },
-    // FIX: Added missing birthYear
     birthYear: 1956,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/noureddinechenoud/400/500',
     rating: 4.3,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 98,
     name: { en: 'Oulahlou', fr: 'Oulahlou', ar: 'أولحلو' },
     domain: 'Music',
     bio: { en: 'Activist and modern singer.', fr: 'Chanteur engagé et moderne.', ar: 'مغني ملتزم وحديث.' },
-    // FIX: Added missing birthYear
     birthYear: 1963,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/oulahlou/400/500',
     rating: 4.7,
     ratingVotes: 120,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 99,
     name: { en: 'Ouaghlis (Rabah)', fr: 'Ouaghlis (Rabah)', ar: 'واغليس (رابح)' },
     domain: 'Music',
     bio: { en: 'Singer.', fr: 'Chanteur.', ar: 'مغني.' },
-    // FIX: Added missing birthYear
     birthYear: 1950,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/ouaghlis/400/500',
     rating: 4.1,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 100,
     name: { en: 'Ouazib Mohand Ameziane', fr: 'Ouazib Mohand Ameziane', ar: 'وازيب موحند أمزيان' },
     domain: 'Music',
     bio: { en: 'Singer from the 70s.', fr: 'Chanteur des années 70.', ar: 'مغني من السبعينات.' },
-    // FIX: Added missing birthYear
     birthYear: 1952,
     deathYear: 1998,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/ouazibmohandameziane/400/500',
     rating: 4.4,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 101,
     name: { en: 'Ouassim (Rabah)', fr: 'Ouassim (Rabah)', ar: 'وسيم (رابح)' },
     domain: 'Music',
     bio: { en: 'Singer.', fr: 'Chanteur.', ar: 'مغني.' },
-    // FIX: Added missing birthYear
     birthYear: 1950,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/ouassim/400/500',
     rating: 4.0,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 102,
     name: { en: 'Rabah Asma', fr: 'Rabah Asma', ar: 'رابح عصمة' },
     domain: 'Music',
     bio: { en: 'Kabyle variety.', fr: 'Variété kabyle.', ar: 'منوعات قبائلية.' },
-    // FIX: Added missing birthYear
     birthYear: 1962,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/rabahasma/400/500',
     rating: 4.5,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 103,
     name: { en: 'Rabah Taleb', fr: 'Rabah Taleb', ar: 'رابح طالب' },
     domain: 'Music',
     bio: { en: 'Singer.', fr: 'Chanteur.', ar: 'مغني.' },
-    // FIX: Added missing birthYear
     birthYear: 1950,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/rabahtaleb/400/500',
     rating: 4.2,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 104,
     name: { en: 'Samir Sadaoui', fr: 'Samir Sadaoui', ar: 'سمير السعداوي' },
     domain: 'Music',
     bio: { en: 'Current singer.', fr: 'Chanteur actuel.', ar: 'مغني حالي.' },
-    // FIX: Added missing birthYear
     birthYear: 1950,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/samirsadaoui/400/500',
     rating: 4.1,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 105,
     name: { en: 'Sami El Djazairi', fr: 'Sami El Djazairi', ar: 'سامي الجزائري' },
     domain: 'Music',
     bio: { en: 'Pop-Kabyle.', fr: 'Pop-kabyle.', ar: 'بوب قبائلي.' },
-    // FIX: Added missing birthYear
     birthYear: 1945,
     deathYear: 1987,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/samieldjazairi/400/500',
     rating: 4.4,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 106,
     name: { en: 'Salah Sadaoui', fr: 'Salah Sadaoui', ar: 'صالح السعداوي' },
     domain: 'Music',
     bio: { en: 'Popular singer.', fr: 'Chanteur populaire.', ar: 'مغني شعبي.' },
-    // FIX: Added missing birthYear
     birthYear: 1936,
     deathYear: 2009,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/salahsadaoui/400/500',
     rating: 4.6,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 107,
     name: { en: 'Saïd Youcef', fr: 'Saïd Youcef', ar: 'سعيد يوسف' },
     domain: 'Music',
     bio: { en: 'Singer.', fr: 'Chanteur.', ar: 'مغني.' },
-    // FIX: Added missing birthYear
     birthYear: 1950,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/saidyoucef/400/500',
     rating: 4.3,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 108,
     name: { en: 'Si Moh', fr: 'Si Moh', ar: 'سي موح' },
     domain: 'Music',
     bio: { en: 'Modern folk singer.', fr: 'Chanteur folk moderne.', ar: 'مغني فولك حديث.' },
-    // FIX: Added missing birthYear
     birthYear: 1906,
     deathYear: 1994,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/simoh/400/500',
     rating: 4.5,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 109,
     name: { en: 'Takfarinas', fr: 'Takfarinas', ar: 'تاكفاريناس' },
     domain: 'Music',
     bio: { en: 'Creator of "Yal", modern international style.', fr: 'Créateur du "Yal", style moderne international.', ar: 'مبتكر "اليال"، أسلوب عالمي حديث.' },
-    // FIX: Added missing birthYear
     birthYear: 1958,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/takfarinas/400/500',
     rating: 4.8,
     ratingVotes: 170,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 110,
     name: { en: 'Yasmina', fr: 'Yasmina', ar: 'ياسمينا' },
     domain: 'Music',
     bio: { en: 'Popular singer.', fr: 'Chanteuse populaire.', ar: 'مغنية شعبية.' },
-    // FIX: Added missing birthYear
     birthYear: 1965,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'female',
     mainImageUrl: 'https://picsum.photos/seed/yasmina/400/500',
     rating: 4.6,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 111,
     name: { en: 'Zedek Mouloud', fr: 'Zedek Mouloud', ar: 'زدك مولود' },
     domain: 'Music',
     bio: { en: 'Singer.', fr: 'Chanteur.', ar: 'مغني.' },
-    // FIX: Added missing birthYear
     birthYear: 1960,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/zedekmouloud/400/500',
     rating: 4.3,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 112,
     name: { en: 'Zohra', fr: 'Zohra', ar: 'زهرة' },
     domain: 'Music',
     bio: { en: 'Singer.', fr: 'Chanteuse.', ar: 'مغنية.' },
-    // FIX: Added missing birthYear
     birthYear: 1928,
     deathYear: 1981,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'female',
     mainImageUrl: 'https://picsum.photos/seed/zohra/400/500',
     rating: 4.5,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 113,
     name: { en: 'Zoulikha', fr: 'Zoulikha', ar: 'زليخة' },
     domain: 'Music',
     bio: { en: 'Traditional singer.', fr: 'Chanteuse traditionnelle.', ar: 'مغنية تقليدية.' },
-    // FIX: Added missing birthYear
     birthYear: 1957,
     deathYear: 1994,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'female',
     mainImageUrl: 'https://picsum.photos/seed/zoulikha/400/500',
     rating: 4.6,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 114,
     name: { en: 'Mohamed Iguerbouchen', fr: 'Mohamed Iguerbouchen', ar: 'محمد إقربوشن' },
     domain: 'Music',
     bio: { en: 'Composer.', fr: 'Compositeur.', ar: 'ملحن.' },
-    // FIX: Added missing birthYear
     birthYear: 1907,
     deathYear: 1966,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/mohamediguerbouchen/400/500',
     rating: 4.7,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 115,
     name: { en: 'Hafid Dzaïri', fr: 'Hafid Dzaïri', ar: 'حفيظ دزايري' },
     domain: 'Music',
     bio: { en: 'Singer.', fr: 'Chanteur.', ar: 'مغني.' },
-    // FIX: Added missing birthYear
     birthYear: 1950,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/hafiddzairi/400/500',
     rating: 4.1,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 116,
     name: { en: 'Rabah Driassa', fr: 'Rabah Driassa', ar: 'رابح درياسة' },
     domain: 'Music',
     bio: { en: 'Also sang in Kabyle.', fr: 'A chanté en Kabyle également.', ar: 'غنى بالقبائلية أيضاً.' },
-    // FIX: Added missing birthYear
     birthYear: 1934,
     deathYear: 2021,
     birthPlace: { en: 'Blida', fr: 'Blida', ar: 'البليدة' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/rabahdriassa/400/500',
     rating: 4.7,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 117,
     name: { en: 'Abdelkader Chaou', fr: 'Abdelkader Chaou', ar: 'عبد القادر شاو' },
     domain: 'Music',
     bio: { en: 'Sang in Kabyle.', fr: 'A chanté en Kabyle.', ar: 'غنى بالقبائلية.' },
-    // FIX: Added missing birthYear
     birthYear: 1941,
     birthPlace: { en: 'Algiers', fr: 'Alger', ar: 'الجزائر' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/abdelkaderchaou/400/500',
     rating: 4.6,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 118,
     name: { en: 'Kamal Tarahit', fr: 'Kamal Tarahit', ar: 'كمال ترحيت' },
     domain: 'Music',
     bio: { en: 'Singer.', fr: 'Chanteur.', ar: 'مغني.' },
-    // FIX: Added missing birthYear
     birthYear: 1950,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/kamaltarahit/400/500',
     rating: 4.0,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 119,
     name: { en: 'Massi', fr: 'Massi', ar: 'ماسي' },
     domain: 'Music',
     bio: { en: 'Kabyle Folk/Rock.', fr: 'Folk/Rock kabyle.', ar: 'فولك/روك قبائلي.' },
-    // FIX: Added missing birthYear
     birthYear: 1967,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/massi2/400/500',
     rating: 4.4,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 120,
     name: { en: 'Ouardia Aïssaoui', fr: 'Ouardia Aïssaoui', ar: 'وردية عيساوي' },
     domain: 'Music',
     bio: { en: 'Singer.', fr: 'Chanteuse.', ar: 'مغنية.' },
-    // FIX: Added missing birthYear
     birthYear: 1950,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'female',
     mainImageUrl: 'https://picsum.photos/seed/ouardiaaissaoui/400/500',
     rating: 4.3,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 121,
     name: { en: 'Chérif Soummam', fr: 'Chérif Soummam', ar: 'شريف صومام' },
     domain: 'Music',
     bio: { en: 'Singer.', fr: 'Chanteur.', ar: 'مغني.' },
-    // FIX: Added missing birthYear
     birthYear: 1950,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/cherifsoummam/400/500',
     rating: 4.2,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 122,
     name: { en: 'Ferroudja Mezghenna', fr: 'Ferroudja Mezghenna', ar: 'فروجة مزغنة' },
     domain: 'Music',
     bio: { en: 'Traditional singer.', fr: 'Chanteuse traditionnelle.', ar: 'مغنية تقليدية.' },
-    // FIX: Added missing birthYear
     birthYear: 1950,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'female',
     mainImageUrl: 'https://picsum.photos/seed/ferroudjamezghenna/400/500',
     rating: 4.4,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 123,
     name: { en: 'Brahim Hallal', fr: 'Brahim Hallal', ar: 'ابراهيم حلال' },
     domain: 'Music',
     bio: { en: 'Modern artist.', fr: 'Artiste moderne.', ar: 'فنان حديث.' },
-    // FIX: Added missing birthYear
     birthYear: 1950,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/brahimhallal/400/500',
     rating: 4.0,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 124,
     name: { en: 'Massa Bouchafa', fr: 'Massa Bouchafa', ar: 'ماسا بوشافة' },
     domain: 'Music',
     bio: { en: 'Singer.', fr: 'Chanteuse.', ar: 'مغنية.' },
-    // FIX: Added missing birthYear
     birthYear: 1964,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'female',
     mainImageUrl: 'https://picsum.photos/seed/massabouchafa/400/500',
     rating: 4.5,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 125,
     name: { en: 'Ali Ideflawen', fr: 'Ali Ideflawen', ar: 'علي إدفلاون' },
     domain: 'Music',
     bio: { en: 'Singer.', fr: 'Chanteur.', ar: 'مغني.' },
-    // FIX: Added missing birthYear
     birthYear: 1957,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/aliideflawen/400/500',
     rating: 4.4,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 126,
     name: { en: 'Djamila', fr: 'Djamila', ar: 'جميلة' },
     domain: 'Music',
     bio: { en: 'Traditional singer.', fr: 'Chanteuse traditionnelle.', ar: 'مغنية تقليدية.' },
-    // FIX: Added missing birthYear
     birthYear: 1930,
     deathYear: 2015,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'female',
     mainImageUrl: 'https://picsum.photos/seed/djamila/400/500',
     rating: 4.6,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 127,
     name: { en: 'Boussaâdi (Kamel)', fr: 'Boussaâdi (Kamel)', ar: 'بوسعدي (كمال)' },
     domain: 'Music',
     bio: { en: 'Singer.', fr: 'Chanteur.', ar: 'مغني.' },
-    // FIX: Added missing birthYear
     birthYear: 1950,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/boussaadi/400/500',
     rating: 4.1,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 128,
     name: { en: 'Ouazib Mohand Smail', fr: 'Ouazib Mohand Smail', ar: 'وازيب موحند سمايل' },
     domain: 'Music',
     bio: { en: 'Singer.', fr: 'Chanteur.', ar: 'مغني.' },
-    // FIX: Added missing birthYear
     birthYear: 1950,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/ouazibmohandsmail/400/500',
     rating: 4.2,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 129,
     name: { en: 'Hacène Aït Kaci', fr: 'Hacène Aït Kaci', ar: 'حسان آيت قاسي' },
     domain: 'Music',
     bio: { en: 'Singer.', fr: 'Chanteur.', ar: 'مغني.' },
-    // FIX: Added missing birthYear
     birthYear: 1950,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/haceneaitkaci/400/500',
     rating: 4.3,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 130,
     name: { en: 'Rabah Ouramdane', fr: 'Rabah Ouramdane', ar: 'رابح أورمدان' },
     domain: 'Music',
     bio: { en: 'Singer.', fr: 'Chanteur.', ar: 'مغني.' },
-    // FIX: Added missing birthYear
     birthYear: 1950,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/rabahouramdane/400/500',
     rating: 4.2,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 131,
     name: { en: 'Cheikh Sidi Bémol', fr: 'Cheikh Sidi Bémol', ar: 'الشيخ سيدي بيمول' },
     domain: 'Music',
     bio: { en: 'Kabyle Rock/Blues.', fr: 'Rock/Blues kabyle.', ar: 'روك/بلوز قبائلي.' },
-    // FIX: Added missing birthYear
     birthYear: 1957,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/cheikhsidibemol/400/500',
     rating: 4.6,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 132,
     name: { en: 'Zeddini (Mourad)', fr: 'Zeddini (Mourad)', ar: 'زديني (مراد)' },
     domain: 'Music',
     bio: { en: 'Singer.', fr: 'Chanteur.', ar: 'مغني.' },
-    // FIX: Added missing birthYear
     birthYear: 1950,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/zeddini/400/500',
     rating: 4.0,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 133,
     name: { en: 'Amzigh', fr: 'Amzigh', ar: 'أمزغ' },
     domain: 'Music',
     bio: { en: 'Singer.', fr: 'Chanteur.', ar: 'مغني.' },
-    // FIX: Added missing birthYear
     birthYear: 1950,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/amzigh/400/500',
     rating: 4.1,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   },
   {
     id: 134,
     name: { en: 'Abranis (Les)', fr: 'Abranis (Les)', ar: 'الأبرانيس' },
     domain: 'Music',
     bio: { en: 'Pioneering Kabyle rock group.', fr: 'Groupe pionnier du rock kabyle.', ar: 'فرقة روك قبائلية رائدة.' },
-    // FIX: Added missing birthYear
     birthYear: 1967,
     birthPlace: { en: 'Kabylie', fr: 'Kabylie', ar: 'القبائل' },
     gender: 'male',
     mainImageUrl: 'https://picsum.photos/seed/abranis/400/500',
     rating: 4.7,
-    mediaGallery: [], relations: [], notableWorks: [], awards: [], externalLinks: []
+    mediaGallery: [],
+    relations: [],
+    notableWorks: [],
+    awards: [],
+    externalLinks: []
   }
 ];

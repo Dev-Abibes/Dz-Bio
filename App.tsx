@@ -6,7 +6,11 @@ import PersonalityGrid from './components/PersonalityGrid';
 import PersonalityDetail from './components/PersonalityDetail';
 import Filters from './components/Filters';
 import AdminPage from './components/AdminPage';
-import LoginPage from './components/LoginPage'; // New component for login
+import LoginPage from './components/LoginPage';
+import Footer from './components/Footer';
+import CookieBanner from './components/CookieBanner';
+import PrivacyPolicyPage from './components/PrivacyPolicyPage';
+import LegalNoticePage from './components/LegalNoticePage';
 import { useTranslations } from './hooks/useTranslations';
 
 const App: React.FC = () => {
@@ -49,7 +53,7 @@ const App: React.FC = () => {
   }, []);
 
   useEffect(() => {
-    if (page === '#/admin' || page ==='#/login') {
+    if (page === '#/admin' || page ==='#/login' || page ==='#/privacy' || page ==='#/legal') {
       setSelectedPersonalityId(null);
     }
   }, [page]);
@@ -147,6 +151,10 @@ const App: React.FC = () => {
           : <LoginPage onLogin={handleLogin} t={t} />;
       case '#/login':
         return <LoginPage onLogin={handleLogin} t={t} />;
+      case '#/privacy':
+        return <PrivacyPolicyPage t={t} />;
+      case '#/legal':
+        return <LegalNoticePage t={t} />;
       default:
         if (selectedPersonality) {
           return (
@@ -183,14 +191,8 @@ const App: React.FC = () => {
       <main className="container mx-auto p-4 md:p-8">
         {renderContent()}
       </main>
-      <footer className="text-center p-4 text-gray-500 dark:text-gray-400 border-t border-gray-200 dark:border-gray-700 mt-8">
-        <p>&copy; {new Date().getFullYear()} {t('footer_text')}</p>
-        <div className="mt-2">
-          <a href="#/admin" className="text-sm text-emerald-600 dark:text-emerald-400 hover:underline">
-            Admin Panel
-          </a>
-        </div>
-      </footer>
+      <Footer t={t} />
+      <CookieBanner t={t} />
     </div>
   );
 };
